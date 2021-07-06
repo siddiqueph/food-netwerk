@@ -1,0 +1,122 @@
+body{
+    margin: 0px; 
+    font-family: 'Poppins', sans-serif;
+
+}
+.flaxable-area {
+    display: flex;
+    margin-top: 20px;
+}
+.top-banner{
+    background-image: url('images/shapes/Frame\ 58.jpg');
+    background-repeat: no-repeat;  
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.half-width img{
+    width: 60%;
+}
+samp{
+    color: orange;
+}
+h1{ 
+    font-size: 50px;
+    line-height: 10px;
+}
+h2{
+    font-size: 30px;
+}
+.link-button{
+    padding: 10px;
+    margin: 10px;
+    background: linear-gradient( tomato,red );
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700px;
+}
+p{
+    text-align: justify;
+}
+.about-me{
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
+}
+.Recipies h2{
+    text-align: center;
+}
+.Recipies p{
+    width: 50%;
+    margin-left: 300px;
+    text-align: justify;
+    
+}
+.all-card{
+    
+    margin: 5%;
+}
+.card{ 
+    margin-top: 50px;
+    margin-bottom: 100px;
+   
+} 
+
+.card-body {
+    width: 30%;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px;
+    background: linear-gradient( 180deg,tomato, #5f3804); 
+    transition: all 1.3s;
+    box-shadow: 10px 10px 40px gray;
+}
+.card-body img{
+    width: 97%;
+    height: 250px;
+    border: 6px solid;
+    border-image: linear-gradient(180deg,#97074f, #00e8b2);
+    border-image-slice: 4;
+}
+.card-body:hover{
+    transform: scale(1.1);
+}
+.count-number{
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+    border-right: 2px solid orange;
+    
+}
+.viw-number{
+    width: 90%;
+    border-radius:20px;
+    margin-bottom: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0px 0px 20px black;
+}
+.last{
+    
+    background:black;
+    padding: 30px 0px;
+    color: white;
+}
+.last h4{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.food{
+    color: rgb(255, 0, 149);
+}
+.last P{
+    text-align: center;
+}
